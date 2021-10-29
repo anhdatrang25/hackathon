@@ -19,27 +19,10 @@ if (process.env.ENV === 'prod') {
         cluster.on('exit', () => {
             cluster.fork();
         })
-    }else{
+    } else {
         let app = express();
         server(app);
     }
-}else{
+} else {
     server(express());
 }
-
-/**
- * Entry point application
- * @version 1.0.0
- * @since Aug 10, 2020
- * @description
- *  - Capstone project 1 DTU University
- *  - 2020
- * Mentor: Jan samuelsson
- * Members: Pham Le Hoan
- *          Phan Xuan Dung
- *          Nguyen Thanh Long
- *          Huynh Dac Vinh
- *          Phan Thuy Ngan
- * 
- * @copyright Created by develop team with ♥️
- */

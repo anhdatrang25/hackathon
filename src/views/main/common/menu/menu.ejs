@@ -12,7 +12,9 @@
         <div>
 
         </div>
-        <li class="offcanvas__logo"><a href="/"><img src="/img/logo.png" alt="SOAS."></a></li>
+        <li class="offcanvas__logo">
+            <a href="/"><img src="/img/logo.png" alt="GLAD"></a>
+        </li>
         <li><a href="/products/auction"><span class="fa fa-gavel"></span>
                 <div class="tip"><%-numberBiddingProd%></div>
             </a></li>
@@ -34,7 +36,7 @@
         <div class="row">
             <div class="col-xl-3 col-lg-2">
                 <div class="header__logo">
-                    <a href="/"><img src="/img/logo.png" alt="SOAS."></a>
+                    <a href="/"><img src="/img/logo.png" alt="GLAD"></a>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-7">
@@ -77,21 +79,46 @@
         <div class="container row mx-auto">
             <nav class="header__menu col-xl-3 col-lg-2 mx-auto">
                 <ul>
-                    <li><a href="#"><h3><i class="fa fa-bars mr-2" style="font-size: larger;"
-                        aria-hidden="true"></i>Category</h3></a>
+                    <li>
+                        <a href="#">
+                            <h3><i class="fa fa-bars mr-2" style="font-size: larger;" aria-hidden="true"></i>Category</h3>
+                        </a>
                         <ul class="dropdown">
                             <% categories.forEach(item =>{%>
-                                <li><a href="/products/?category=<%-item.code%>"><h4><%-item.value%></h4></a></li>
-                            <% })%>
+                                <li>
+                                    <a href="/products/?category=<%-item.code%>">
+                                        <h4>
+                                            <%-item.value%>
+                                        </h4>
+                                    </a>
+                                </li>
+                                <% })%>
                         </ul>
                     </li>
                 </ul>
             </nav>
             <nav class="header__menu col-xl-9 col-lg-10 text-right">
                 <ul>
-                    <li class="active"><a href="/"><h3>Home</h3></a></li>
-                    <li><a href="/products/auction"><h3>Auction</h3></a></li>
-                    <li><a href="/contact"><h3>Contact</h3></a></li>
+                    <li>
+                        <a href="/">
+                            <h3>Home</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://nguyenhonghieu.github.io/store/">
+                            <h3>Store</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/products/auction">
+                            <h3>Auction</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                            <h3>Contact</h3>
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </div>

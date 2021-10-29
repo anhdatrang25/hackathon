@@ -31,20 +31,20 @@ router.post('/add',
     ProductController.postProduct
 );
 
-router.get('/auction', 
-    AuthController.checkUser, 
+router.get('/auction',
+    AuthController.checkUser,
     LocalVariableForward.localVarsForward,
     ProductController.getManage
 );
 
-router.get('/manage', 
+router.get('/manage',
     AuthController.checkUser,
     LocalVariableForward.localVarsForward,
     Authorization.hasAddPermission,
     ProductController.productManegements
 )
 
-router.get('/cart', 
+router.get('/cart',
     AuthController.checkUser,
     LocalVariableForward.localVarsForward,
     ProductController.getCart
@@ -63,7 +63,7 @@ router.post('/edit/:id',
     ProductController.postUpdateProducts
 )
 
-router.get('/del/:id', 
+router.get('/del/:id',
     AuthController.checkUser,
     Authorization.hasAddPermission,
     ProductController.deleteProduct

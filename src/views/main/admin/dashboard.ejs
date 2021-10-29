@@ -6,12 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords"
-        content="SOAS - Admin">
-    <meta name="description"
-        content="This is Admin page of Secure Online Auction System - SOAS">
+    <meta name="keywords" content="GLAD - Admin">
+    <meta name="description" content="This is Admin page of Secure Online Auction System - GLAD">
     <meta name="robots" content="noindex,nofollow">
-    <title>SOAS Admin</title>
+    <title>GLAD Admin</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/xtreme-admin-lite/" />
     <!-- Favicon icon -->
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -32,12 +30,11 @@
     <!-- ============================================================== -->
     <!-- Preloader - style you can find in spinners.css -->
     <!-- ============================================================== -->
-    
+
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
-    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full"
-        data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full" data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
         <!-- ============================================================== -->
         <!-- Topbar header - style you can find in pages.scss -->
         <!-- ============================================================== -->
@@ -54,7 +51,7 @@
                             <!-- Dark Logo icon -->
                             <img src="/img/logo.png" alt="homepage" class="dark-logo" />
                             <!-- Light Logo icon -->
-                            <img src="/img/logo-light.png" alt="homepage" class="light-logo" />
+                            <img src="/img/logo-light.png" alt="homepage" class="light-logo" style="margin-left: 35px;"/>
                         </b>
                         <!--End Logo icon -->
                     </a>
@@ -76,11 +73,10 @@
                         <!-- ============================================================== -->
                         <!-- Search -->
                         <!-- ============================================================== -->
-                        <li class="nav-item search-box"> <a class="nav-link waves-effect waves-dark"
-                                href="javascript:void(0)"><i class="ti-search" style="line-height: 5;"> </i> Search...</a>
+                        <li class="nav-item search-box"> <a class="nav-link waves-effect waves-dark" href="javascript:void(0)"><i class="ti-search" style="line-height: 5;"> </i>
+                                Search...</a>
                             <form class="app-search position-absolute">
-                                <input type="text" class="form-control" placeholder="Search &amp; enter"> <a
-                                    class="srh-btn"><i class="ti-close"></i></a>
+                                <input type="text" class="form-control" placeholder="Search &amp; enter"> <a class="srh-btn"><i class="ti-close"></i></a>
                             </form>
                         </li>
                     </ul>
@@ -92,10 +88,7 @@
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href=""
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img hidden
-                                    src="/img/users/5.jpg" alt="user" class="rounded-circle"
-                                    width="31"></a>
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img hidden src="/img/users/5.jpg" alt="user" class="rounded-circle" width="31"></a>
                             <div class="dropdown-menu dropdown-menu-right user-dd animated">
                                 <a class="dropdown-item" href="javascript:void(0)"><i class="ti-user m-r-5 m-l-5"></i>
                                     My Profile</a>
@@ -128,8 +121,7 @@
                         <li>
                             <!-- User Profile-->
                             <div class="user-profile d-flex no-block dropdown m-t-20">
-                                <div hidden class="user-pic"><img src="/img/users/5.jpg" alt="users"
-                                        class="rounded-circle" width="40" /></div>
+                                <div hidden class="user-pic"><img src="/img/users/5.jpg" alt="users" class="rounded-circle" width="40" /></div>
                                 <div class="user-content hide-menu m-l-10">
                                     <!-- <a href="javascript:void(0)" class="" id="Userdd" role="button"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -155,18 +147,17 @@
                             </div>
                             <!-- End User Profile-->
                         </li>
-                        
+
                         <!-- User Profile-->
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                            href="/admin" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span
-                                class="hide-menu">Dashboard</span></a></li>
-                        
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="/admin/listAccount" aria-expanded="false"><i class="mdi mdi-account"></i><span
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="/admin" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span
+                                    class="hide-menu">Dashboard</span></a></li>
+
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="/admin/listAccount" aria-expanded="false"><i class="mdi mdi-account"></i><span
                                     class="hide-menu">List Accounts</span></a></li>
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                            href="/admin/listProduct" aria-expanded="false"><i class="mdi mdi-gift"></i><span
-                                class="hide-menu">List product</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="/admin/listProduct" aria-expanded="false"><i class="mdi mdi-gift"></i><span
+                                    class="hide-menu">List product</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="/admin/listProduct" aria-expanded="false"><i class="fa fa-cubes" aria-hidden="true"></i><span
+                                    class="hide-menu">Blockchain Manager</span></a></li>
                         <!-- <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
                                 href="starter-kit.html" aria-expanded="false"><i class="mdi mdi-file"></i><span
                                     class="hide-menu">Blank</span></a></li>
@@ -205,8 +196,7 @@
                     </div>
                     <div class="col-7">
                         <div class="text-right">
-                            <a href="/" class="btn btn-danger text-white"
-                                target="_blank">Log out</a>
+                            <a href="/" class="btn btn-danger text-white" target="_blank">Log out</a>
                         </div>
                     </div>
                 </div>
@@ -257,13 +247,14 @@
                                     <!-- Comment Row -->
                                     <div class="d-flex flex-row comment-row m-t-0">
                                         <div class="p-2 w-25">
-                                            <img src="/img/users/4.jpg" alt="user"class="rounded-circle img-fluid">
+                                            <img src="/img/users/4.jpg" alt="user" class="rounded-circle img-fluid">
                                         </div>
                                         <div class="comment-text w-75">
-                                            <h6 class="font-medium">Thuy Ngan</h6>
+                                            <h6 class="font-medium">GLAD TEAM</h6>
                                             <div class="comment-footer">
-                                                <span class="small text-muted">April 14, 2020</span>
-                                                <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing
+                                                <span class="small text-muted">October 29, 2021</span>
+                                                <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the
+                                                    printing
                                                     and type setting industry. </span>
                                             </div>
                                         </div>
@@ -306,50 +297,51 @@
                                             <th class="border-top-0">Control</th>
                                         </tr>
                                     </thead>
-                                    <tbody>                                        
+                                    <tbody>
                                         <tr>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <div class="m-r-10"><a
-                                                            class="btn btn-circle d-flex btn-orange text-white">TL</a>
+                                                    <div class="m-r-10"><a class="btn btn-circle d-flex btn-orange text-white">TD</a>
                                                     </div>
                                                     <div class="">
-                                                        <h4 class="m-b-0 font-16">Thanh Long</h4>
+                                                        <h4 class="m-b-0 font-16">Thanh Dao</h4>
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td>thanhlongit</td>
-                                            <td>long@example.com</td>
+                                            <td>thanhdaogit</td>
+                                            <td>dao@example.com</td>
                                             <td>
                                                 0912345678
                                             </td>
-                                            <td>Lien Chieu - Da Nang</td>
+                                            <td>Kien Giang</td>
                                             <td><label class="label label-warning">Pending</label></td>
                                             <td>
-                                                <a href="javascript:void(0)"><i class="p-1 fa fa-times-circle text-white bg-danger rounded"></i></a>
-                                                <a href="javascript:void(0)"><i class="p-1 fa fa-check text-white bg-success rounded"></i></a>
+                                                <a href="javascript:void(0)"><i
+                                                        class="p-1 fa fa-times-circle text-white bg-danger rounded"></i></a>
+                                                <a href="javascript:void(0)"><i
+                                                        class="p-1 fa fa-check text-white bg-success rounded"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <div class="d-flex align-items-center">
-                                                    <div class="m-r-10"><a
-                                                            class="btn btn-circle d-flex btn-success text-white">XD</a>
+                                                    <div class="m-r-10"><a class="btn btn-circle d-flex btn-success text-white">KB</a>
                                                     </div>
                                                     <div class="">
-                                                        <h4 class="m-b-0 font-16">Xuan Dung</h4>
+                                                        <h4 class="m-b-0 font-16">KimBao</h4>
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td>xuandung</td>
-                                            <td>dung@example.com</td>
+                                            <td>kimbao</td>
+                                            <td>bao@example.com</td>
                                             <td>
                                                 0912345678
                                             </td>
-                                            <td>Quang Nam</td>
+                                            <td>Quang Tri</td>
                                             <td><label class="label label-success">Accepted</label></td>
                                             <td>
-                                                <a href="javascript:void(0)"><i class="p-1 fa fa-times-circle text-white bg-danger rounded"></i></a>
+                                                <a href="javascript:void(0)"><i
+                                                        class="p-1 fa fa-times-circle text-white bg-danger rounded"></i></a>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -374,8 +366,7 @@
                             <div class="comment-widgets scrollable" style="height:430px;">
                                 <!-- Comment Row -->
                                 <div class="d-flex flex-row comment-row m-t-0">
-                                    <div class="p-2"><img src="/img/users/1.jpg" alt="user" width="50"
-                                            class="rounded-circle"></div>
+                                    <div class="p-2"><img src="/img/users/1.jpg" alt="user" width="50" class="rounded-circle"></div>
                                     <div class="comment-text w-100">
                                         <h6 class="font-medium">Essential structured blazer</h6>
                                         <div class="m-b-15 d-block">
@@ -391,10 +382,10 @@
                                             </span>
                                             <div>
                                                 <b>Start time:</b>
-                                                <span>December 14, 2020 16:30:00</span></div>
+                                                <span>October 29, 2021 16:30:00</span></div>
                                             <div>
                                                 <b>End time:</b>
-                                                <span>December 14, 2020 18:30:00</span>
+                                                <span>October 29, 2021 18:30:00</span>
                                             </div>
                                             <div>
                                                 <b>Current Price:</b>
@@ -410,12 +401,15 @@
                                             </div>
                                             <div>
                                                 <b>Description:</b>
-                                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem corrupti optio beatae aliquid iusto voluptates amet maxime praesentium, maiores consequuntur vitae natus quas labore eius quisquam similique eos accusamus. Ipsa?</span>
+                                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                                                    corrupti optio beatae aliquid iusto voluptates amet maxime
+                                                    praesentium, maiores consequuntur vitae natus quas labore eius
+                                                    quisquam similique eos accusamus. Ipsa?</span>
                                             </div>
                                         </div>
                                         <div class="comment-footer">
-                                            <span class="text-muted float-right">April 14, 2016</span> 
-                                            <span class="label label-rounded label-primary">Pending</span> 
+                                            <span class="text-muted float-right">October 29, 2021</span>
+                                            <span class="label label-rounded label-primary">Pending</span>
                                             <span class="action-icons">
                                                 <a href="javascript:void(0)"><i class="ti-na"></i></a>
                                                 <a href="javascript:void(0)"><i class="ti-check"></i></a>
@@ -425,8 +419,7 @@
                                 </div>
                                 <!-- Comment Row -->
                                 <div class="d-flex flex-row comment-row">
-                                    <div class="p-2"><img src="/img/users/4.jpg" alt="user" width="50"
-                                            class="rounded-circle"></div>
+                                    <div class="p-2"><img src="/img/users/4.jpg" alt="user" width="50" class="rounded-circle"></div>
                                     <div class="comment-text w-100">
                                         <h6 class="font-medium">Essential structured blazer</h6>
                                         <div class="m-b-15 d-block">
@@ -442,10 +435,10 @@
                                             </span>
                                             <div>
                                                 <b>Start time:</b>
-                                                <span>December 14, 2020 16:30:00</span></div>
+                                                <span>October 29, 2021 16:30:00</span></div>
                                             <div>
                                                 <b>End time:</b>
-                                                <span>December 14, 2020 18:30:00</span>
+                                                <span>October, 2021 18:30:00</span>
                                             </div>
                                             <div>
                                                 <b>Current Price:</b>
@@ -461,11 +454,14 @@
                                             </div>
                                             <div>
                                                 <b>Description:</b>
-                                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem corrupti optio beatae aliquid iusto voluptates amet maxime praesentium, maiores consequuntur vitae natus quas labore eius quisquam similique eos accusamus. Ipsa?</span>
+                                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                                                    corrupti optio beatae aliquid iusto voluptates amet maxime
+                                                    praesentium, maiores consequuntur vitae natus quas labore eius
+                                                    quisquam similique eos accusamus. Ipsa?</span>
                                             </div>
                                         </div>
                                         <div class="comment-footer ">
-                                            <span class="text-muted float-right">April 14, 2016</span>
+                                            <span class="text-muted float-right">October 29, 2021</span>
                                             <span class="label label-success label-rounded">Approved</span>
                                             <span class="action-icons">
                                                 <a href="javascript:void(0)"><i class="ti-na"></i></a>
@@ -475,8 +471,7 @@
                                 </div>
                                 <!-- Comment Row -->
                                 <div class="d-flex flex-row comment-row">
-                                    <div class="p-2"><img src="/img/users/5.jpg" alt="user" width="50"
-                                            class="rounded-circle"></div>
+                                    <div class="p-2"><img src="/img/users/5.jpg" alt="user" width="50" class="rounded-circle"></div>
                                     <div class="comment-text w-100">
                                         <h6 class="font-medium">Essential structured blazer</h6>
                                         <div class="m-b-15 d-block">
@@ -492,10 +487,10 @@
                                             </span>
                                             <div>
                                                 <b>Start time:</b>
-                                                <span>December 14, 2020 16:30:00</span></div>
+                                                <span>October 29, 2021 16:30:00</span></div>
                                             <div>
                                                 <b>End time:</b>
-                                                <span>December 14, 2020 18:30:00</span>
+                                                <span>October 29, 2021 18:30:00</span>
                                             </div>
                                             <div>
                                                 <b>Current Price:</b>
@@ -511,11 +506,14 @@
                                             </div>
                                             <div>
                                                 <b>Description:</b>
-                                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem corrupti optio beatae aliquid iusto voluptates amet maxime praesentium, maiores consequuntur vitae natus quas labore eius quisquam similique eos accusamus. Ipsa?</span>
+                                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                                                    corrupti optio beatae aliquid iusto voluptates amet maxime
+                                                    praesentium, maiores consequuntur vitae natus quas labore eius
+                                                    quisquam similique eos accusamus. Ipsa?</span>
                                             </div>
                                         </div>
                                         <div class="comment-footer">
-                                            <span class="text-muted float-right">April 14, 2016</span>
+                                            <span class="text-muted float-right">October 29, 2021</span>
                                             <span class="label label-rounded label-danger">Rejected</span>
                                             <span class="action-icons">
                                                 <a href="javascript:void(0)"><i class="ti-check"></i></a>
@@ -535,8 +533,7 @@
                             <div class="comment-widgets scrollable" style="height:430px;">
                                 <!-- Comment Row -->
                                 <div class="d-flex flex-row comment-row m-t-0">
-                                    <div class="p-2"><img src="/img/users/1.jpg" alt="user" width="50"
-                                            class="rounded-circle"></div>
+                                    <div class="p-2"><img src="/img/users/1.jpg" alt="user" width="50" class="rounded-circle"></div>
                                     <div class="comment-text w-100">
                                         <h6 class="font-medium">Essential structured blazer</h6>
                                         <div class="m-b-15 d-block">
@@ -552,10 +549,10 @@
                                             </span>
                                             <div>
                                                 <b>Start time:</b>
-                                                <span>December 14, 2020 16:30:00</span></div>
+                                                <span>October 29, 2021 16:30:00</span></div>
                                             <div>
                                                 <b>End time:</b>
-                                                <span>December 14, 2020 18:30:00</span>
+                                                <span>October 29, 2021 18:30:00</span>
                                             </div>
                                             <div>
                                                 <b>Current Price:</b>
@@ -571,12 +568,15 @@
                                             </div>
                                             <div>
                                                 <b>Description:</b>
-                                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem corrupti optio beatae aliquid iusto voluptates amet maxime praesentium, maiores consequuntur vitae natus quas labore eius quisquam similique eos accusamus. Ipsa?</span>
+                                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                                                    corrupti optio beatae aliquid iusto voluptates amet maxime
+                                                    praesentium, maiores consequuntur vitae natus quas labore eius
+                                                    quisquam similique eos accusamus. Ipsa?</span>
                                             </div>
                                         </div>
                                         <div class="comment-footer">
-                                            <span class="text-muted float-right">December 14, 2020</span> 
-                                            <span class="label label-rounded label-primary">Pending</span> 
+                                            <span class="text-muted float-right">October 29, 2021</span>
+                                            <span class="label label-rounded label-primary">Pending</span>
                                             <span class="action-icons">
                                                 <a href="javascript:void(0)"><i class="ti-na"></i></a>
                                                 <a href="javascript:void(0)"><i class="ti-check"></i></a>
@@ -586,8 +586,7 @@
                                 </div>
                                 <!-- Comment Row -->
                                 <div class="d-flex flex-row comment-row">
-                                    <div class="p-2"><img src="/img/users/4.jpg" alt="user" width="50"
-                                            class="rounded-circle"></div>
+                                    <div class="p-2"><img src="/img/users/4.jpg" alt="user" width="50" class="rounded-circle"></div>
                                     <div class="comment-text w-100">
                                         <h6 class="font-medium">Essential structured blazer</h6>
                                         <div class="m-b-15 d-block">
@@ -603,10 +602,10 @@
                                             </span>
                                             <div>
                                                 <b>Start time:</b>
-                                                <span>December 14, 2020 16:30:00</span></div>
+                                                <span>October 29, 2021 16:30:00</span></div>
                                             <div>
                                                 <b>End time:</b>
-                                                <span>December 14, 2020 18:30:00</span>
+                                                <span>October 29, 2021 18:30:00</span>
                                             </div>
                                             <div>
                                                 <b>Current Price:</b>
@@ -622,11 +621,14 @@
                                             </div>
                                             <div>
                                                 <b>Description:</b>
-                                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem corrupti optio beatae aliquid iusto voluptates amet maxime praesentium, maiores consequuntur vitae natus quas labore eius quisquam similique eos accusamus. Ipsa?</span>
+                                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                                                    corrupti optio beatae aliquid iusto voluptates amet maxime
+                                                    praesentium, maiores consequuntur vitae natus quas labore eius
+                                                    quisquam similique eos accusamus. Ipsa?</span>
                                             </div>
                                         </div>
                                         <div class="comment-footer ">
-                                            <span class="text-muted float-right">April 14, 2016</span>
+                                            <span class="text-muted float-right">October, 2021</span>
                                             <span class="label label-success label-rounded">Approved</span>
                                             <span class="action-icons">
                                                 <a href="javascript:void(0)"><i class="ti-na"></i></a>
@@ -636,8 +638,7 @@
                                 </div>
                                 <!-- Comment Row -->
                                 <div class="d-flex flex-row comment-row">
-                                    <div class="p-2"><img src="/img/users/5.jpg" alt="user" width="50"
-                                            class="rounded-circle"></div>
+                                    <div class="p-2"><img src="/img/users/5.jpg" alt="user" width="50" class="rounded-circle"></div>
                                     <div class="comment-text w-100">
                                         <h6 class="font-medium">Essential structured blazer</h6>
                                         <div class="m-b-15 d-block">
@@ -653,10 +654,10 @@
                                             </span>
                                             <div>
                                                 <b>Start time:</b>
-                                                <span>December 14, 2020 16:30:00</span></div>
+                                                <span>October 29, 2021 16:30:00</span></div>
                                             <div>
                                                 <b>End time:</b>
-                                                <span>December 14, 2020 18:30:00</span>
+                                                <span>October 29, 2021 18:30:00</span>
                                             </div>
                                             <div>
                                                 <b>Current Price:</b>
@@ -672,11 +673,14 @@
                                             </div>
                                             <div>
                                                 <b>Description:</b>
-                                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem corrupti optio beatae aliquid iusto voluptates amet maxime praesentium, maiores consequuntur vitae natus quas labore eius quisquam similique eos accusamus. Ipsa?</span>
+                                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                                                    corrupti optio beatae aliquid iusto voluptates amet maxime
+                                                    praesentium, maiores consequuntur vitae natus quas labore eius
+                                                    quisquam similique eos accusamus. Ipsa?</span>
                                             </div>
                                         </div>
                                         <div class="comment-footer">
-                                            <span class="text-muted float-right">April 14, 2016</span>
+                                            <span class="text-muted float-right">October 29, 2021</span>
                                             <span class="label label-rounded label-danger">Rejected</span>
                                             <span class="action-icons">
                                                 <a href="javascript:void(0)"><i class="ti-check"></i></a>
@@ -687,50 +691,50 @@
                             </div>
                         </div>
                     </div>
+                    <!-- ============================================================== -->
+                    <!-- Recent comment and chats -->
+                    <!-- ============================================================== -->
+                </div>
                 <!-- ============================================================== -->
-                <!-- Recent comment and chats -->
+                <!-- End Container fluid  -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- footer -->
+                <!-- ============================================================== -->
+                <footer class="footer text-center">
+                    All Rights Reserved with <i class="fa fa-heart" aria-hidden="true"></i>. Designed and Developed by
+                    <a href="">C1.SE08</a>.
+                </footer>
+                <!-- ============================================================== -->
+                <!-- End footer -->
                 <!-- ============================================================== -->
             </div>
             <!-- ============================================================== -->
-            <!-- End Container fluid  -->
-            <!-- ============================================================== -->
-            <!-- ============================================================== -->
-            <!-- footer -->
-            <!-- ============================================================== -->
-            <footer class="footer text-center">
-                All Rights Reserved with <i class="fa fa-heart" aria-hidden="true"></i>. Designed and Developed by <a
-                    href="https://fb.com/hoan.glad">C1.SE08</a>.
-            </footer>
-            <!-- ============================================================== -->
-            <!-- End footer -->
+            <!-- End Page wrapper  -->
             <!-- ============================================================== -->
         </div>
         <!-- ============================================================== -->
-        <!-- End Page wrapper  -->
+        <!-- End Wrapper -->
         <!-- ============================================================== -->
-    </div>
-    <!-- ============================================================== -->
-    <!-- End Wrapper -->
-    <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- All Jquery -->
-    <!-- ============================================================== -->
-    <script src="/adminvendors/jquery/dist/jquery.min.js"></script>
-    <!-- Bootstrap tether Core JavaScript -->
-    <script src="/adminvendors/popper.js/dist/umd/popper.min.js"></script>
-    <script src="/adminvendors/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="/js/app-style-switcher.js"></script>
-    <!--Wave Effects -->
-    <script src="/js/waves.js"></script>
-    <!--Menu sidebar -->
-    <script src="/js/sidebarmenu.js"></script>
-    <!--Custom JavaScript -->
-    <script src="/js/custom.js"></script>
-    <!--This page JavaScript -->
-    <!--chartis chart-->
-    <script src="/adminvendors/chartist/dist/chartist.min.js"></script>
-    <script src="/adminvendors/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
-    <script src="js/pages/dashboards/dashboard1.js"></script>
+        <!-- ============================================================== -->
+        <!-- All Jquery -->
+        <!-- ============================================================== -->
+        <script src="/adminvendors/jquery/dist/jquery.min.js"></script>
+        <!-- Bootstrap tether Core JavaScript -->
+        <script src="/adminvendors/popper.js/dist/umd/popper.min.js"></script>
+        <script src="/adminvendors/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="/js/app-style-switcher.js"></script>
+        <!--Wave Effects -->
+        <script src="/js/waves.js"></script>
+        <!--Menu sidebar -->
+        <script src="/js/sidebarmenu.js"></script>
+        <!--Custom JavaScript -->
+        <script src="/js/custom.js"></script>
+        <!--This page JavaScript -->
+        <!--chartis chart-->
+        <script src="/adminvendors/chartist/dist/chartist.min.js"></script>
+        <script src="/adminvendors/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+        <script src="js/pages/dashboards/dashboard1.js"></script>
 </body>
 
 </html>

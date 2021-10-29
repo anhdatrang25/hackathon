@@ -14,11 +14,16 @@ router.post("/add",
     productApi.postProduct
 )
 
-router.get('/:id', 
+router.get("/contact",
+    AuthApi.verifyUser,
+    productApi.getProducts
+)
+
+router.get('/:id',
     productApi.getProduct
 )
 
-router.post('/timeout', 
+router.post('/timeout',
     productApi.getProductAndWinner
 )
 
